@@ -20,7 +20,7 @@ describe Elves do
   end
 
   describe 'extra paper' do
-    it 'calculate the are base on smalest side' do
+    it 'calculate the area based on smalest side' do
       @elves.calculate_slack([2, 3, 4]).must_equal 6
       @elves.calculate_slack([1, 1, 10]).must_equal 1
     end
